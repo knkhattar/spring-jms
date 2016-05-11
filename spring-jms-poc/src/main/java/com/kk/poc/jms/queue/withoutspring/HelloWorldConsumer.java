@@ -37,7 +37,7 @@ public class HelloWorldConsumer {
 			session.close();
 			connection.close();
 		} catch(Exception e) {
-			e.printStackTrace();
+			e.printStackTrace(); 
 		}
 	}
 
