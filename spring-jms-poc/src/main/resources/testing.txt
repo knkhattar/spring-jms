@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" 
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+ <SOAP-ENV:Body>
+  <UPDATE__CompIntfc__SDK_BUS_EXP>
+    <SDK_EMPLID>8001</SDK_EMPLID>
+    <SDK_BUS_EXP_PER>
+      <SDK_EXP_PER_DT>08/14/2002</SDK_EXP_PER_DT>
+        <SDK_BUS_EXP_DTL>
+          <SDK_CHARGE_DT>08/14/2002</SDK_CHARGE_DT>
+          <SDK_EXPENSE_CD>01</SDK_EXPENSE_CD>
+          <SDK_EXPENSE_AMT>1234.56</SDK_EXPENSE_AMT>
+          <SDK_CURRENCY_CD>USD</SDK_CURRENCY_CD>
+          <SDK_BUS_PURPOSE>Client Visit</SDK_BUS_PURPOSE>
+          <SDK_DEPTID>10100</SDK_DEPTID>
+        </SDK_BUS_EXP_DTL>
+    </SDK_BUS_EXP_PER>
+  </UPDATE__CompIntfc__SDK_BUS_EXP>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
